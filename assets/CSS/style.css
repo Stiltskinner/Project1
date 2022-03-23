@@ -1,0 +1,49 @@
+/* Universal selector */
+* {
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+}
+
+header h1 {
+    background-color: aquamarine;
+}
+
+header h2 {
+    background-color: bisque;
+}
+
+footer h2 {
+    background-color: darkgreen;
+    color:lightskyblue;
+    font-size: 48px;
+}
+
+/* Classes */
+
+.navbar {
+    display:inline;
+}
+
+.Red{
+    background-color: red;
+    color:white;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 200px auto;
+    border: 15px solid black;
+    background-color: blueviolet;
+  }
+
+/* IDs */
+
+#Stickyheader {
+    position:fixed;
+    top:0;
+}
+
+#GitProfile {
+    font-size: large;
+}
